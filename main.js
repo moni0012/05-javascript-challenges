@@ -48,4 +48,16 @@ switch (days) {
         console.log('Sorry we did not recognised the day');
 }
 
-
+// using switch vegetable price
+const vegetable = "carrot";
+switch (vegetable) {
+    case "potato":
+    case "carrot":
+        console.log("50rs per kg");
+        break;
+    case "brocolie":
+        console.log("80rs per kg");
+        break;
+    case "cabbage":
+        console.log("30rs per kg");
+}
